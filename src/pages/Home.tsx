@@ -1,9 +1,15 @@
 import React from 'react';
-import NavBar from './components/NavBar';
+import Announcement from '../components/Announcement';
+import NavBar from '../components/NavBar';
+import Slider from '../components/Slider';
 
 function Home() {
   return (
-    <div><NavBar /></div>
+    <div>
+      <Announcement />
+      <NavBar />
+      <Slider />
+    </div>
   );
 }
 
